@@ -1,1 +1,3 @@
-Meu primeiro sistema no GIT
+*** COMANDOS DE UTILIZAÇÃO DO GIT ***
+
+projeto contendo alguns comandos do git;
