@@ -1,0 +1,45 @@
+*/ para saber o status do que existe pendente para envio ou commit no git utilizar
+o comando abaixo pelo prompt:
+git status 
+
+*/ para verificar o log das alterações:
+git log
+
+*/ para enviar todos os arquivos que exibirem no status:
+git add -A
+ para incluir um arquivo em específico basta substituir o -A pelo nome do arquivo
+
+*/ para comitar o que está pendente de alteração
+git commit -m "comentário"
+
+*/ o utilize para saber qual branch estamos
+git branch
+
+*/ para resetar ou reverter a varsão do comit
+git reset --hard x onde x é o código do comit
+*/ para retornar sem remover os arquivos utilizar o comando --soft
+
+*/ para alterar o branch use o comando 
+git chackout x onde x é o nome do branch que irá navegar
+
+*/ para criar um novo branch basta inserir o comando
+git branch x onde x é o nome do novo branch
+* IMPORTANTE*
+após criar um novo branch é necessário que faça o chackout antes de iniciar qualquer
+tipo de  alteração;
+
+*/ comando para saber qual alteração foi realizada.
+será exibido um log com as modificações nos arquivos.
+git diff
+
+*/ retorna com somente o nome dos arquivos que foram alterados;
+git diff --nameonly
+
+*/ retorna com o arquivo específico que foi alterado;
+git diff --nameonly x onde x é o nome do arquivo
+
+
+*/ restaurar um arquivo modificado em outra branch
+git checkout HEAD (onde head é o nome da branch desejada) -- x onde x é o nome do arquivo à 
+ser restaurado
+
