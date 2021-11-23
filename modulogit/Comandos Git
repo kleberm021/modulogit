@@ -19,3 +19,12 @@ git branch
 git reset --hard x onde x é o código do comit
 */ para retornar sem remover os arquivos utilizar o comando --soft
 
+*/ para alterar o branch use o comando 
+git chackout x onde x é o nome do branch que irá navegar
+
+*/ para criar um novo branch basta inserir o comando
+git branch x onde x é o nome do novo branch
+* IMPORTANTE*
+após criar um novo branch é necessário que faça o chackout antes de iniciar qualquer
+tipo de  alteração;
+
