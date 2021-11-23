@@ -49,3 +49,8 @@ ser restaurado
     */ enviando arquivo para o git
 git push x y onde x é o branch no git e y é a branch local
     *IMPORTANTE PARA "FORÇAR UTILIZE A OPÇÃO -F"
+
+    */ ignorando arquivos;
+        criar arquivo .gitignore 
+        alterar arquivo adicionando quais nomenclaturas ou nome específico do arquivo
+        a ser alterado;
