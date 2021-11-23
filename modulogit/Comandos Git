@@ -28,3 +28,18 @@ git branch x onde x é o nome do novo branch
 após criar um novo branch é necessário que faça o chackout antes de iniciar qualquer
 tipo de  alteração;
 
+*/ comando para saber qual alteração foi realizada.
+será exibido um log com as modificações nos arquivos.
+git diff
+
+*/ retorna com somente o nome dos arquivos que foram alterados;
+git diff --nameonly
+
+*/ retorna com o arquivo específico que foi alterado;
+git diff --nameonly x onde x é o nome do arquivo
+
+
+*/ restaurar um arquivo modificado em outra branch
+git checkout HEAD (onde head é o nome da branch desejada) -- x onde x é o nome do arquivo à 
+ser restaurado
+
