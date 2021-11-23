@@ -14,3 +14,8 @@ git commit -m "comentário"
 
 */ o utilize para saber qual branch estamos
 git branch
+
+*/ para resetar ou voltar a varsão do comit
+git reset --hard x onde x é o código do comit
+*/ para retornar sem remover os arquivos utilizar o comando --soft
+
