@@ -48,3 +48,4 @@ ser restaurado
 
 */ enviando arquivo para o git
 git push x y onde x é o branch no git e y é a branch local
+*IMPORTANTE PARA "FORÇAR UTILIZE A OPÇÃO -F"
