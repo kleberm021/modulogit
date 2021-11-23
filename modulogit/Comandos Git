@@ -1,0 +1,16 @@
+*/ para saber o status do que existe pendente para envio ou commit no git utilizar
+o comando abaixo pelo prompt:
+git status 
+
+*/ para verificar o log das alterações:
+git log
+
+*/ para enviar todos os arquivos que exibirem no status:
+git add -A
+ para incluir um arquivo em específico basta substituir o -A pelo nome do arquivo
+
+*/ para comitar o que está pendente de alteração
+git commit -m "comentário"
+
+*/ o utilize para saber qual branch estamos
+git branch
